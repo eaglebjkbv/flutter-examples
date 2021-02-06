@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
 
 class HomeScreen extends StatelessWidget {
   final List<Student> students = [
-    Student.withId(1, 'Bülent', 'VARDAL', 95),
-    Student.withId(2, 'Burak', 'VARDAL', 100),
-    Student.withId(3, 'Serra', 'VARDAL', 90),
-    Student.withId(3, 'Serap', 'TURANLI VARDAL', 90),
+    Student.withId(1, 'Bülent', 'Can', 95),
+    Student.withId(2, 'Burak', 'Canan', 100),
+    Student.withId(3, 'Serra', 'Canan', 90),
+    Student.withId(3, 'Serap', 'Can', 90),
   ];
 
   @override
